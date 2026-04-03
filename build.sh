@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc main.c -o bottomUpDb.x
+rm bottomUpDb.x db.bin
+gcc -g main.c -o bottomUpDb.x
